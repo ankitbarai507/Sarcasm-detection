@@ -16,21 +16,21 @@ Other than this approach there are two other improvements approach using which w
 These two other approaches are : 1) Using RNN architectures, 2) BERT pre-trained model.
 <br/>
 
-# In summary, the main contributions of this model are the following: \
+# In summary, the main contributions of this model are the following: 
 +	Apply deep learning to sarcasm detection
 +	Leverage sentiment features for sarcasm detection
 +	Apply pre-trained models for automatic feature extraction
-The two improvement architectures proposed are: \
+The two improvement architectures proposed are: 
 +	Applying LSTM sequence models for sarcasm detection
 +	Making use of BERT pre trained model layer.
 
-# Datasets \
+# Datasets 
 Two datasets are used for this project namely, sarcastic headlines dataset (Kaggle rmisra/news-headlines-dataset-for-sarcasm-detection) and sentiment analysis dataset. ( Kaggle kazanova/sentiment140) 
-The Sarcasm dataset consists of 54.2% sarcastic samples.\
+The Sarcasm dataset consists of 54.2% sarcastic samples.
 Word Embeddings: word2vec vectors are employed as input. The vectors are of dimensionality 300, trained using the continuous bag-of-words architecture. Words not present in the set of pre-trained words are initialized randomly. 
 Pretrained embeddings are taken from https://www.kaggle.com/yekenot/fasttext-crawl-300d-2m
 
-# CNN-SVM Hybrid models (Sentiment-Sarcasm combination model also) \
+# CNN-SVM Hybrid models (Sentiment-Sarcasm combination model also) 
 ![alt_text](images/1.PNG)
 ![alt_text](images/2.PNG)
 ![alt_text](images/3.PNG)
